@@ -1,11 +1,11 @@
 <!-- ==================== Header Banner ==================== -->
 <div align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0b1a13,35:1b4332,70:3d5a4c,100:52796f&height=160&section=header&text=Niaz%20Uddin&fontSize=60&fontColor=f1faee&fontAlignY=45&fontStyle=bold&animation=fadeIn" />
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:1a120b,35:3d2410,70:995d13,100:f5b738&height=160&section=header&text=Niaz%20Uddin&fontSize=60&fontColor=fff8e7&fontAlignY=45&fontStyle=bold&animation=fadeIn" />
   
   <img width="100%" src="./banner.png" alt="Niaz Uddin Banner" />
   
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&duration=3000&pause=800&color=74C69D&center=true&vCenter=true&multiline=false&width=650&height=40&lines=Full+Stack+Developer+%F0%9F%9A%80;React+%2B+Next.js+Architect+%F0%9F%AA%84;Modern+Web+Development+%F0%9F%92%BB;Building+Scalable+Modern+Web+Apps+%F0%9F%94%A7" />
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&duration=3000&pause=800&color=F5B738&center=true&vCenter=true&multiline=false&width=650&height=40&lines=Full+Stack+Developer+%F0%9F%9A%80;React+%2B+Next.js+Architect+%F0%9F%AA%84;Modern+Web+Development+%F0%9F%92%BB;Building+Scalable+Modern+Web+Apps+%F0%9F%94%A7" />
   </a>
 
   <p>
@@ -110,5 +110,5 @@ I'm a dedicated full-stack web developer passionate about building clean, high-p
 
 <!-- ==================== Footer ==================== -->
 <div align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:52796f,30:3d5a4c,65:1b4332,100:0b1a13&height=130&section=footer&text=Thanks%20for%20visiting!%20%E2%9C%A8&fontSize=20&fontColor=f1faee&fontAlignY=55&desc=Niaz%20Uddin%20%E2%80%A2%20%C2%A9%202026&descSize=13&descAlignY=78&descColor=b7e4c7&animation=fadeIn" />
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:f5b738,30:995d13,65:3d2410,100:1a120b&height=130&section=footer&text=Thanks%20for%20visiting!%20%E2%9C%A8&fontSize=20&fontColor=fff8e7&fontAlignY=55&desc=Niaz%20Uddin%20%E2%80%A2%20%C2%A9%202026&descSize=13&descAlignY=78&descColor=f9d371&animation=fadeIn" />
 </div>
