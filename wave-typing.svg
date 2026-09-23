@@ -1,0 +1,112 @@
+<svg
+  width="100%"
+  height="110"
+  viewBox="0 0 854 110"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  style="z-index: 1; position: relative;"
+>
+  <defs>
+    <!-- banner.png Matte Charcoal & Obsidian Gradients -->
+    <linearGradient id="bannerDarkGrad1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0E0E10" />
+      <stop offset="35%" stop-color="#1A1A1E" />
+      <stop offset="70%" stop-color="#2B2C32" />
+      <stop offset="100%" stop-color="#3E4048" />
+    </linearGradient>
+
+    <linearGradient id="bannerDarkGrad2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#121214" />
+      <stop offset="35%" stop-color="#222328" />
+      <stop offset="70%" stop-color="#35373F" />
+      <stop offset="100%" stop-color="#4A4D57" />
+    </linearGradient>
+
+    <style>
+      @keyframes fadeIn {
+        from { opacity: 0; }
+        to { opacity: 1; }
+      }
+      .wave-layer {
+        animation: fadeIn 1.2s ease-in-out forwards;
+      }
+      .typing-text {
+        font-family: "JetBrains Mono", "SF Mono", -apple-system, monospace;
+        font-size: 20px;
+        font-weight: 700;
+        fill: #FFFFFF;
+        letter-spacing: 0.5px;
+        filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.95));
+      }
+    </style>
+  </defs>
+
+  <!-- Waving Background Layers matching banner.png -->
+  <g class="wave-layer" transform="translate(427, 55) scale(1, 1) translate(-427, -55)">
+    <path fill="url(#bannerDarkGrad1)" opacity="0.65">
+      <animate
+        attributeName="d"
+        dur="20s"
+        repeatCount="indefinite"
+        keyTimes="0;0.333;0.667;1"
+        calcMode="spline"
+        keySplines="0.2 0 0.2 1;0.2 0 0.2 1;0.2 0 0.2 1"
+        begin="0s"
+        values="M0 0L 0 40Q 213.5 80 427 50T 854 75L 854 0 Z;M0 0L 0 65Q 213.5 80 427 60T 854 50L 854 0 Z;M0 0L 0 85Q 213.5 55 427 85T 854 50L 854 0 Z;M0 0L 0 40Q 213.5 80 427 50T 854 75L 854 0 Z"
+      />
+    </path>
+    <path fill="url(#bannerDarkGrad2)" opacity="0.85">
+      <animate
+        attributeName="d"
+        dur="20s"
+        repeatCount="indefinite"
+        keyTimes="0;0.333;0.667;1"
+        calcMode="spline"
+        keySplines="0.2 0 0.2 1;0.2 0 0.2 1;0.2 0 0.2 1"
+        begin="-10s"
+        values="M0 0L 0 55Q 213.5 100 427 70T 854 80L 854 0 Z;M0 0L 0 70Q 213.5 40 427 40T 854 60L 854 0 Z;M0 0L 0 65Q 213.5 45 427 70T 854 85L 854 0 Z;M0 0L 0 55Q 213.5 100 427 70T 854 80L 854 0 Z"
+      />
+    </path>
+  </g>
+
+  <!-- Perfectly Centered Typewriter Animation -->
+  <path id="typeLine0">
+    <animate id="d0" attributeName="d" begin="0s;d3.end" dur="3800ms" fill="remove"
+      values="m0,46 h0 ; m0,46 h854 ; m0,46 h854 ; m0,46 h0" keyTimes="0;0.63157894736842;0.84210526315789;1" />
+  </path>
+  <text class="typing-text" dominant-baseline="middle" text-anchor="middle" x="50%">
+    <textPath xlink:href="#typeLine0">
+      Full Stack Developer 🚀
+    </textPath>
+  </text>
+
+  <path id="typeLine1">
+    <animate id="d1" attributeName="d" begin="d0.end" dur="3800ms" fill="remove"
+      values="m0,46 h0 ; m0,46 h854 ; m0,46 h854 ; m0,46 h0" keyTimes="0;0.63157894736842;0.84210526315789;1" />
+  </path>
+  <text class="typing-text" dominant-baseline="middle" text-anchor="middle" x="50%">
+    <textPath xlink:href="#typeLine1">
+      React + Next.js Architect 🪄
+    </textPath>
+  </text>
+
+  <path id="typeLine2">
+    <animate id="d2" attributeName="d" begin="d1.end" dur="3800ms" fill="remove"
+      values="m0,46 h0 ; m0,46 h854 ; m0,46 h854 ; m0,46 h0" keyTimes="0;0.63157894736842;0.84210526315789;1" />
+  </path>
+  <text class="typing-text" dominant-baseline="middle" text-anchor="middle" x="50%">
+    <textPath xlink:href="#typeLine2">
+      Modern Web Development 💻
+    </textPath>
+  </text>
+
+  <path id="typeLine3">
+    <animate id="d3" attributeName="d" begin="d2.end" dur="3800ms" fill="remove"
+      values="m0,46 h0 ; m0,46 h854 ; m0,46 h854 ; m0,46 h0" keyTimes="0;0.63157894736842;0.84210526315789;1" />
+  </path>
+  <text class="typing-text" dominant-baseline="middle" text-anchor="middle" x="50%">
+    <textPath xlink:href="#typeLine3">
+      Building Scalable Modern Web Apps 🔧
+    </textPath>
+  </text>
+</svg>
